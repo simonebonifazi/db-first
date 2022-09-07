@@ -1,10 +1,10 @@
-(primary key)'id'
-'marca'
-'modello'
-'anno'
-'chilometri'
-'posti'
-'porte'
-'tipo_di_cambio'
-'n_marce'
-'colore'
+(PRIMARY KEY)'id' --> [type] BIGINT; [attributes] NOT NULL, UNIQUE, AUTOINCREMENT
+'marca' --> VARCHAR(15); NULL
+'modello' --> VARCHAR(15); NULL
+'anno' -->
+'chilometri' -->
+'posti' -->
+'porte' -->
+'tipo_di_cambio' -->
+'n_marce' -->
+'colore' -->
