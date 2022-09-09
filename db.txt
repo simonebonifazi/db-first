@@ -1,10 +1,11 @@
 (PRIMARY KEY)'id' --> [type] BIGINT; [attributes] NOT NULL, UNIQUE, AUTOINCREMENT
 'marca' --> VARCHAR(15); NULL
 'modello' --> VARCHAR(15); NULL
-'anno' -->
-'chilometri' -->
-'posti' -->
-'porte' -->
-'tipo_di_cambio' -->
-'n_marce' -->
-'colore' -->
+'anno' --> YEAR
+'chilometri' --> BIGINT UNSIGNED
+'posti' -->  TINYINT NOT NULL
+'porte' -->  TINYINT NOT NULL
+'tipo_di_cambio' --> VARCHAR(20)
+'n_marce' --> TINYINT NOT NULL
+'colore' --> VARCHAR(25)
+'carburante' - VARCHAR(20) NOT NULL
